@@ -33,6 +33,7 @@ header {
     padding-left: 200px;
     padding-right: 200px;
     overflow: hidden;
+    margin-bottom: 100px;
 }
 
 .menu ul {
@@ -87,6 +88,188 @@ header {
     padding-left: 10px;
 }
 
+.ikinci-hisse {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.welcome-hissesi {
+    text-align: center;
+}
+
+.sol {
+    color: #e3eceb;
+    font-size: 20px;
+    transform: rotate(-15deg);
+    /* sola əyilsin */
+}
+
+.orta {
+    font-size: 40px;
+    margin: 0 5px;
+    color: #a2c0be;
+    /* ortadakı düz qalsın */
+}
+
+.sag {
+    color: #e3eceb;
+    font-size: 20px;
+    transform: rotate(15deg);
+    /* sağa əyilsin */
+}
+
+.welcome-text {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.welcome-text h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.welcome-text p {
+    color: #808080;
+    width: 550px;
+    text-align: center;
+    margin: auto;
+}
+
+.lovecare {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lovecare-text {
+    text-align: right;
+}
+
+.lovecare-img img {
+    height: 350px;
+    width: 500px;
+    box-shadow: 10px 10px 0px #a2c0be;
+    margin-left: 120px;
+}
+
+.lovecare-text h2 {
+    font-size: 35px;
+    font-weight: 400;
+    padding: 7px 0;
+}
+
+.lovecare-text p {
+    padding: 0 0 30px 0;
+    color: #80848c;
+    line-height: 1.5;
+}
+
+.lovecare-text a {
+    text-decoration: none;
+    color: white;
+    background-color: #a2c0be;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.Fearsome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Fearsome-text {
+    text-align: left;
+}
+
+.Fearsome-img img {
+    height: 350px;
+    width: 500px;
+    box-shadow: 10px 10px 0px #a2c0be;
+    margin-right: 120px;
+}
+
+.Fearsome-text h2 {
+    font-size: 35px;
+    font-weight: 400;
+    padding: 7px 0;
+}
+
+.Fearsome-text p {
+    padding: 0 0 30px 0;
+    color: #80848c;
+    line-height: 1.5;
+}
+
+.Fearsome-text a {
+    text-decoration: none;
+    color: white;
+    background-color: #a2c0be;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+#sonuncu {
+    margin-bottom: 180px;
+}
+
+/*about us hissesi*/
+
+.aboutus-hissesi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+    height: 100vh;
+}
+
+.aboutus-text h2 {
+    padding: 15px 0px;
+    font-size: 2rem;
+}
+
+.aboutus-img img {
+    height: 700px;
+    width: 550px;
+}
+
+.separated {
+    padding-bottom: 15px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: gray;
+    line-height: 1.5;
+}
+
+.asmall {
+    color: #6c757d !important;
+    line-height: 1.7;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 25px;
+}
+
+.aboutus-icon {
+    font-size: 25px;
+    color: #a2c0be;
+    padding-right: 12px;
+}
+
+.uclu {
+    font-size: 16px;
+    color: #808080;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
 @media only screen and (max-width: 768px) {
     .menu {
         display: none;
@@ -97,12 +280,13 @@ header {
         align-items: center;
         justify-content: space-between;
         margin: 0;
-        padding: 0px 10px;
+        padding: 5px 20px;
+        overflow: hidden;
     }
 
     .icon {
         display: block;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .ilksehife {
@@ -115,13 +299,14 @@ header {
         padding: 15px 20px;
         margin: 0;
         overflow: hidden;
+        margin-bottom: 40px;
     }
 
     .first-img img {
-       max-width: 300px;
-        max-height: 500px;
+        max-width: 300px;
+        max-height: 570px;
         overflow: hidden;
-
+        margin: -50px;
     }
 
     .first-text h1 {
@@ -132,9 +317,147 @@ header {
     .first-text p {
         width: 100%;
         max-width: 100%;
+        padding-bottom: 10px;
+    }
+
+    /*Welcome to Dogger Pet Care in text hissesi*/
+
+    .ikinci-hisse {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .welcome-hissesi {
+        width: 100%;
+    }
+
+    .welcome-text h2 {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .welcome-text p {
+        width: 100%;
+    }
+
+    .lovecare {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+
+    .lovecare-text {
+        text-align: left;
+    }
+
+    .lovecare-img img {
+        height: 100%;
+        max-width: 100%;
+        width: 100%;
+        margin: auto
+    }
+
+    .lovecare-text p {
+        width: 100%;
+    }
+
+    .lovecare-text a {
+        width: 100%;
+    }
+
+    .Fearsome {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+
+    .Fearsome-text {
+        text-align: left;
+    }
+
+    .Fearsome-img img {
+        height: 100%;
+        max-width: 100%;
+        width: 100%;
+        margin: auto
+    }
+
+    .Fearsome-text p {
+        width: 100%;
+    }
+
+    .Fearsome-text a {
+        width: 100%;
+    }
+
+    #sonuncu {
+        margin-bottom: 20px;
     }
 
 
+    .aboutus-hissesi {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        padding-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
+    .aboutus-text h2 {
+        padding: 15px 0px;
+        font-size: 2rem;
+    }
+
+    .aboutus-img img {
+        height: 30%;
+        max-height: 30%;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .separated {
+        padding-bottom: 15px;
+        font-size: 1.25rem;
+        font-weight: 300;
+        color: gray;
+        line-height: 1.5;
+    }
+
+    .asmall {
+        color: #6c757d !important;
+        line-height: 1.7;
+        font-weight: 400;
+        font-size: 1rem;
+        padding-bottom: 25px;
+    }
+
+    .aboutus-icon {
+        font-size: 25px;
+        color: #a2c0be;
+        padding-right: 12px;
+    }
+
+    .uclu {
+        font-size: 16px;
+        color: #808080;
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
 
 }
