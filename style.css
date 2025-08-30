@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Karma:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Karma:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
     margin: 0;
@@ -71,7 +72,7 @@ header {
 
 .first-img img {
     width: 450px;
-    height: 690px;
+    height: 750px;
 }
 
 .first-text h1 {
@@ -368,12 +369,18 @@ header {
 }
 
 /* qiymetcedveli-3lu basladi */
+
+.PricingTable-hissesi {
+    height: auto;
+}
+
 .qiymetcedveli-3lu {
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
+    height: auto;
 }
 
 .ucude {
@@ -462,16 +469,163 @@ header {
     background-color: #5a6268cd;
 }
 
-
-
 /* qiymetcedveli-3lu bitdi */
 
 
+/*Frequently Ask Questions basladi*/
+.Frequently-hissesi {
+    width: 100%;
+}
 
+.ikisi-birlikde {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 100px;
+}
 
+.frequently-img img {
+    max-width: 600px;
+}
 
+details {
+    padding-bottom: 10px;
+}
 
+.fre-icon {
+    background-color: #a2c0be;
+    border-radius: 20px;
+    padding: 7px;
+    color: white;
+}
 
+details summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.frequently-text {
+    width: 600px;
+}
+
+details summary i {
+    color: #a2c0be;
+    font-size: 25px;
+    transition: transform 0.3s;
+}
+
+details[open] summary i {
+    transform: rotate(360deg);
+    background-color: white;
+    color: #a2c0be !important;
+    border: 1px solid #a2c0be !important;
+}
+
+details p {
+    padding-left: 50px;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*Frequently Ask Questions bitdi*/
+
+.HappyCustomers-hissesi {
+    background-color: #f8f9fa;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 100vh;
+}
+
+.HappyCustomers-basliq {
+    padding-top: 50px;
+    margin-bottom: -75px;
+}
+
+.uclu-customer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer123 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bubble-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #a2c0be;
+}
+
+.buble-ad h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.bubble {
+    width: 350px;
+    height: 300px;
+    background-color: #a2c0be;
+    color: #000;
+    padding: 10px;
+    border-radius: 8px;
+    font-style: italic;
+    position: relative;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #3333336d;
+}
+
+.bubble p {
+    width: 90%;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.5;
+    color: #000;
+    font-family: "Vollkorn", serif;
+
+}
+
+.bubble::after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 30px 25px 0;
+    border-style: solid;
+    border-color: #a2c0be transparent transparent transparent;
+}
+
+.ox-isareleri {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.fa-arrow-left {
+    font-weight: 200;
+    padding-right: 50px;
+}
 
 
 
@@ -493,6 +647,7 @@ header {
     .icon {
         display: block;
         font-size: 30px;
+        cursor: pointer;
     }
 
     .ilksehife {
@@ -722,18 +877,129 @@ header {
         padding-bottom: 10px;
     }
 
-    
+
     /* qiymetcedveli-3lu basladi */
     .qiymetcedveli-3lu {
         flex-direction: column;
-        padding-bottom: 100px;
-        
     }
 
-    .PricingTable-hissesi{
+    .PricingTable-hissesi {
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
+
     /* qiymetcedveli-3lu bitdi */
+
+    /*Frequently Ask Questions basladi*/
+    .Frequently-hissesi {
+        width: 100%;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding-bottom: -200px;
+    }
+
+    .ikisi-birlikde {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .frequently-img img {
+        max-width: 100%;
+        margin-bottom: -50px;
+    }
+
+    .frequently-text {
+        width: 100%;
+    }
+
+    /*Frequently Ask Questions bitdi*/
+
+    /*Frequently Ask Questions basladi*/
+    .HappyCustomers-hissesi {
+        padding-left: 15px;
+        padding-right: 15px;
+        height: auto;
+    }
+
+    .HappyCustomers-basliq {
+        padding-top: 50px;
+        margin-bottom: -50px;
+    }
+
+    .uclu-customer {
+        width: 100%;
+        flex-direction: column;
+        gap: -200px;
+    }
+
+    .customer123 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .bubble-img img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 10px solid #a2c0be;
+    }
+
+    .buble-ad h3 {
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .bubble {
+        width: 100%;
+        height: 230px;
+        background-color: #a2c0be;
+        color: #000;
+        padding: 8px;
+        border-radius: 8px;
+        font-style: italic;
+        position: relative;
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 20px #3333336d;
+    }
+
+    .bubble p {
+        width: 90%;
+        text-align: center;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 1.5;
+        color: #000;
+        font-family: "Vollkorn", serif;
+
+    }
+
+    .bubble::after {
+        content: "";
+        position: absolute;
+        bottom: -19px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-width: 30px 25px 0;
+        border-style: solid;
+        border-color: #a2c0be transparent transparent transparent;
+    }
+
+    .ox-isareleri {
+        padding-bottom: 30px;
+    }
+
+    .fa-arrow-left {
+        padding-right: 20px;
+    }
+
+    /*Frequently Ask Questions bitdi*/
 
 }
