@@ -10,6 +10,13 @@ body {
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+::selection {
+    background: black;
+    /* seçilən hissənin fon rəngi */
+    color: white;
+    /* seçilən yazının rəngi */
+}
+
 .icon {
     display: none;
 }
@@ -217,7 +224,7 @@ header {
 }
 
 #sonuncu {
-    margin-bottom: 140px;
+    margin-bottom: 100px;
 }
 
 /*about us hissesi*/
@@ -228,6 +235,7 @@ header {
     justify-content: space-between;
     gap: 150px;
     height: 100vh;
+    padding-bottom: 100px;
 }
 
 .aboutus-text h2 {
@@ -275,7 +283,7 @@ header {
 
 .ourtrainers-text {
     text-align: center;
-    padding-top: 70px;
+
 }
 
 .ourtrainers-text h2 {
@@ -359,6 +367,105 @@ header {
     padding: 10px 10px;
 }
 
+/* qiymetcedveli-3lu basladi */
+.qiymetcedveli-3lu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.ucude {
+    height: auto;
+    width: 100%;
+    background-color: red;
+
+    padding: 40px 30px 0 30px;
+
+    h3 {
+        font-weight: 500;
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+
+    span {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 2.7rem;
+        padding-bottom: 20px;
+    }
+
+    h3,
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem;
+        padding-bottom: 15px;
+    }
+
+}
+
+.fa-check {
+    padding-right: 20px;
+}
+
+.qiymetcedveli-1 {
+    background-color: #a2c0be;
+}
+
+.qiymetcedveli-2 {
+    background-color: #343a40;
+}
+
+.qiymetcedveli-3 {
+    background-color: #a2c0be;
+}
+
+.passiv {
+    text-decoration: line-through;
+    color: #c7d9d8
+}
+
+.buyknow {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 40px;
+    width: 200px;
+}
+
+.button1 {
+    text-align: center;
+    padding: 30px 0 50px 0;
+}
+
+.ortabutton1 {
+    background-color: #a2c0be;
+}
+
+.ortabutton1:hover {
+    background-color: black;
+}
+
+.solbutton1 {
+    background-color: #5a6268;
+}
+
+.solbutton1:hover {
+    background-color: #5a6268cd;
+}
+
+
+
+/* qiymetcedveli-3lu bitdi */
+
 
 
 
@@ -438,6 +545,8 @@ header {
 
     .welcome-text p {
         width: 100%;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 
     .lovecare {
@@ -504,6 +613,7 @@ header {
 
     #sonuncu {
         margin-bottom: 20px;
+
     }
 
 
@@ -514,6 +624,7 @@ header {
         padding-top: 50px;
         padding-left: 15px;
         padding-right: 15px;
+        margin-bottom: 25px;
     }
 
     .aboutus-text h2 {
@@ -565,7 +676,7 @@ header {
 
     .ourtrainers-text {
         text-align: left;
-        padding-top: 70px;
+        margin-top: -30px;
     }
 
     .ourtrainers-hissesi {
@@ -610,5 +721,19 @@ header {
         font-size: 1rem;
         padding-bottom: 10px;
     }
+
+    
+    /* qiymetcedveli-3lu basladi */
+    .qiymetcedveli-3lu {
+        flex-direction: column;
+        padding-bottom: 100px;
+        
+    }
+
+    .PricingTable-hissesi{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    /* qiymetcedveli-3lu bitdi */
 
 }
