@@ -541,7 +541,7 @@ details p {
     background-color: #f8f9fa;
     padding-left: 200px;
     padding-right: 200px;
-    height: 100vh;
+    height: 110vh;
 }
 
 .HappyCustomers-basliq {
@@ -628,7 +628,39 @@ details p {
     padding-right: 50px;
 }
 
+/*PhotoGallery-basliq hissesi*/
+.PhotoGallery-basliq {
+    padding-top: 50px;
+}
 
+.ourtrainers-text h2 {
+    padding-bottom: 50px;
+}
+
+.PhotoGallery-sekilhissesi div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 400px;
+    }
+
+    img {
+        transition: transform 0.3s ease;
+        /* yumşaq animasiya */
+        cursor: zoom-in;
+    }
+
+    img:hover {
+        transform: scale(1.2);
+        /* oxu gətirəndə böyüsün */
+    }
+}
+.PhotoGallery-sekilmobil{
+    display: none;
+}
+/*PhotoGallery-basliq bitdi*/
 
 
 @media only screen and (max-width: 768px) {
@@ -1002,5 +1034,43 @@ details p {
     }
 
     /*Frequently Ask Questions bitdi*/
+
+    /*PhotoGallery-basliq hissesi*/
+    .PhotoGallery-hissesi{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .PhotoGallery-sekilmobil{
+        width: 100%;
+    }
+    .PhotoGallery-basliq {
+        padding-top: 50px;
+    }
+
+    .ourtrainers-text h2 {
+        padding-bottom: 50px;
+    }
+
+    .PhotoGallery-sekilhissesi div {
+        display: none;
+    }
+
+    .PhotoGallery-sekilmobil{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        div img{
+            width: 295px;
+        }
+    }
+
+    .ourtrainers-text h2{
+        padding-bottom: 20px;
+    }
+    /*PhotoGallery-basliq bitdi*/
 
 }
