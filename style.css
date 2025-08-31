@@ -651,7 +651,7 @@ details p {
     justify-content: center;
 
     img {
-        width: 400px;
+        width: 370px;
     }
 
     img {
@@ -680,6 +680,7 @@ details p {
 .DoggerBlog-hissesi {
     padding-right: 200px;
     padding-left: 200px;
+    margin-bottom: 100px;
 
 }
 
@@ -753,6 +754,199 @@ details p {
 .doggerblog-sekilmobil {
     display: none;
 }
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.welcome {
+    margin-bottom: -1px;
+    padding-bottom: 0;
+}
+
+/*ourservice-hissesi basladi*/
+
+.ourservice-hissesi {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 100px;
+}
+
+.sira div {
+    display: flex;
+    gap: px;
+
+    img {
+        width: 100px;
+    }
+}
+
+.lay1 {
+    padding-bottom: 25px;
+}
+
+.ucdene {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    h3 {
+        font-size: 1.3rem;
+        color: #000;
+        font-weight: 500;
+    }
+
+    p {
+        line-height: 1.7;
+        color: gray;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
+
+/*ourservice-hissesi bitdi*/
+/*contact hissesi basladi*/
+.contact-hissesi {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+}
+
+.contact-form {
+    width: 600px;
+    background-color: #a2c0be;
+    width: 100%;
+    padding: 40px;
+
+    h2 {
+        color: #405a58;
+        font-weight: 500;
+        line-height: 1.2;
+        font-size: 1.5rem;
+        padding-bottom: 30px;
+    }
+
+    label {
+        color: #567876;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    input {
+        outline: none;
+        padding-left: 20px;
+        height: 40px;
+    }
+}
+
+.contact-form div {
+    padding-bottom: 15px;
+
+}
+
+input {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    outline: none;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    height: 170px;
+    font-size: 16px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.first-last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    input {
+        width: 220px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+    }
+}
+
+.contact-us {
+    width: 1000px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #6c757d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        color: white;
+        padding-top: 10px;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+.yazi4 {
+    padding-bottom: 10px;
+}
+
+.contactus-birincisira {
+    text-align: center;
+    line-height: 1.7;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.contactus-ikincisira a {
+    text-decoration: none;
+    color: #a8b1b8;
+}
+
+
+
+.sendmessage input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 170px;
+    height: 48px;
+    padding-left: 0px;
+    border-radius: 20px;
+    color: white;
+    background-color: #343a40;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sendmessage input:hover {
+    background-color: black;
+}
+
+.mobile-ucun {
+    display: none;
+}
+
+/*contact hissesi basladi*/
+
+
 
 @media only screen and (max-width: 768px) {
     .menu {
@@ -1157,14 +1351,15 @@ details p {
         padding-bottom: 100px;
 
         div img {
-            width: 250px;
+            width: 200px;
         }
     }
 
     .ourtrainers-text h2 {
         padding-bottom: 20px;
     }
-    .photo{
+
+    .photo {
         margin-bottom: -130px;
     }
 
@@ -1182,22 +1377,166 @@ details p {
         display: none;
     }
 
-    .doggerblog-sekilmobil{
+    .doggerblog-sekilmobil {
         display: flex;
         flex-direction: column;
     }
-    .ikinci{
+
+    .ikinci {
         display: flex;
         flex-direction: column;
         padding-bottom: 30px;
 
-        img{
+        img {
             width: 100%;
         }
 
-        h3, p{
+        h3,
+        p {
             width: 100%;
         }
     }
+
     /*dogger blog hissesi bitdi*/
+
+    .ourservice-hissesi {
+        margin-top: -100px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 50px;
+    }
+
+    .sira div {
+        display: flex;
+        flex-direction: column;
+        gap: px;
+
+        img {
+            width: 100px;
+        }
+    }
+
+    .lay1 {
+        padding-bottom: 0px;
+    }
+
+    .ucdene {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 25px;
+    }
+
+    .contact-hissesi {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form {
+        width: 600px;
+        background-color: #a2c0be;
+        width: 100%;
+        padding: 10px;
+
+        h2 {
+            padding-top: 20px;
+            color: #405a58;
+            font-weight: 500;
+            line-height: 1.2;
+            font-size: 1.5rem;
+            padding-bottom: 30px;
+        }
+
+        label {
+            color: #567876;
+            font-weight: 400;
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            outline: none;
+            padding-left: 20px;
+            height: 40px;
+        }
+    }
+
+    .contact-form div {
+        padding-bottom: 15px;
+
+    }
+
+    input {
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+    }
+
+    textarea {
+        outline: none;
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        height: 170px;
+        font-size: 16px;
+        font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    }
+
+    .first-last {
+        display: none;
+    }
+
+    .contact-us {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding: 25px 0;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            color: white;
+            padding-top: 10px;
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .yazi4 {
+        padding-bottom: 10px;
+    }
+
+    .contactus-birincisira {
+        text-align: center;
+        line-height: 1.7;
+        color: white;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    .contactus-ikincisira a {
+        text-decoration: none;
+        color: #a8b1b8;
+    }
+
+    .mobile-ucun {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
 }
