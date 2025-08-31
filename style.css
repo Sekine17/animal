@@ -633,8 +633,16 @@ details p {
     padding-top: 50px;
 }
 
-.ourtrainers-text h2 {
+.photo {
+    margin-bottom: 50px;
+}
+
+.PhotoGallery-basliq .ourtrainers-text h2 {
     padding-bottom: 50px;
+}
+
+.PhotoGallery-sekilhissesi {
+    margin-bottom: 150px;
 }
 
 .PhotoGallery-sekilhissesi div {
@@ -657,12 +665,94 @@ details p {
         /* oxu gətirəndə böyüsün */
     }
 }
-.PhotoGallery-sekilmobil{
+
+.PhotoGallery-sekilmobil {
     display: none;
 }
+
 /*PhotoGallery-basliq bitdi*/
 
 
+.ourtrainers-text h2 {
+    padding-bottom: 0px !important;
+}
+
+.DoggerBlog-hissesi {
+    padding-right: 200px;
+    padding-left: 200px;
+
+}
+
+.DoggerBlog-ikincihisse img {
+    width: 200px;
+    padding-right: 20px;
+}
+
+.DoggerBlog-ikincihisse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.ikinci h3 {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.aprel {
+    line-height: 1.7;
+    color: #b3b3b3;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.ilk1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.fartheway {
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.readmore {
+    line-height: 1.7;
+    color: #a2c0be;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.ikinci {
+    display: flex;
+}
+
+.ikinci-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.DoggerBlog-hissesi {
+    margin-top: -100px;
+}
+
+.doggerblog-sekilmobil {
+    display: none;
+}
 
 @media only screen and (max-width: 768px) {
     .menu {
@@ -1037,14 +1127,15 @@ details p {
     /*Frequently Ask Questions bitdi*/
 
     /*PhotoGallery-basliq hissesi*/
-    .PhotoGallery-hissesi{
-        padding-left: 15px;
-        padding-right: 15px;
+    .PhotoGallery-hissesi {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
-    .PhotoGallery-sekilmobil{
+    .PhotoGallery-sekilmobil {
         width: 100%;
     }
+
     .PhotoGallery-basliq {
         padding-top: 50px;
     }
@@ -1057,21 +1148,56 @@ details p {
         display: none;
     }
 
-    .PhotoGallery-sekilmobil{
+    .PhotoGallery-sekilmobil {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-bottom: 100px;
 
-        div img{
-            width: 295px;
+        div img {
+            width: 250px;
         }
     }
 
-    .ourtrainers-text h2{
+    .ourtrainers-text h2 {
         padding-bottom: 20px;
     }
+    .photo{
+        margin-bottom: -130px;
+    }
+
     /*PhotoGallery-basliq bitdi*/
 
+    /*dogger blog hissesi basladi*/
+    .DoggerBlog-hissesi {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+
+    .DoggerBlog-ikincihisse {
+        display: none;
+    }
+
+    .doggerblog-sekilmobil{
+        display: flex;
+        flex-direction: column;
+    }
+    .ikinci{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+
+        img{
+            width: 100%;
+        }
+
+        h3, p{
+            width: 100%;
+        }
+    }
+    /*dogger blog hissesi bitdi*/
 }
